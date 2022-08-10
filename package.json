@@ -1,0 +1,29 @@
+{
+  "name": "express-node_boiler-plate",
+  "version": "1.0.0",
+  "description": "Project-Initial-Setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dey-animesh98/Express-Node_Boiler-Plate.git"
+  },
+  "keywords": [],
+  "author": "Animesh Dey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dey-animesh98/Express-Node_Boiler-Plate/issues"
+  },
+  "homepage": "https://github.com/dey-animesh98/Express-Node_Boiler-Plate#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
